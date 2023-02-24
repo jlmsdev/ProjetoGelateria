@@ -1,0 +1,45 @@
+ .containerRodape {
+    width: 100%;
+    height: 320px;
+    background-color: #000;
+
+    display: flex;
+    flex-direction: column;
+
+    color: #FFF;
+
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 4rem;
+    padding-bottom: 1.2rem;
+
+ }
+
+ .areaRodape {
+    width: 100%;
+    max-width: 1024px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .endereco,
+ .contato,
+ .horarios {
+    width: 185px;
+ }
+
+ .endereco h3,
+ .contato h3,
+ .horarios h3 {
+    margin-bottom: 1rem;
+ }
+
+ .endereco p,
+ .contato p,
+ .horarios p {
+    line-height: 22px;
+    font-size: .9rem;
+ }
