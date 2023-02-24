@@ -1,0 +1,43 @@
+.containerSabores {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sorveteSabpr {
+    width: 50%;
+}
+
+.bannerSabores {
+    width: 100%;
+}
+
+.insttucionalSabores {
+    width: 50%;
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+
+.insttucionalSabores h2 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.insttucionalSabores h3 {
+    font-size: 2rem;
+}
+
+.insttucionalSabores p {
+    width: 60%;
+    margin-top: 2rem;
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 25px;
+}
+

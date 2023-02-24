@@ -8,7 +8,7 @@
     align-items: center;
 }
 
-figure {
+.containerImage {
     width: 100%;
     max-width: 1024px;
 
@@ -20,11 +20,13 @@ figure {
 }
 
 .imgHome {
-    width: calc(90% - 90px );
+    width: 100%;
+    height: calc(100vh - 90px);
 }
 
 .legendaImg {
     width: 100%;
+    max-width: 1024px;
     position: absolute;
     top: 50%;
     color: #FFF;
@@ -33,4 +35,62 @@ figure {
     text-align: center;
 
     text-shadow: 3px 5px 5px #000;
+}
+
+
+.containerInfo {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.bannerSorvete,
+.imageEvento {
+    width: 50%;
+}
+
+.imgSorvete img,
+.imageEvento img {
+    width: 100%;
+    display: block;
+    box-shadow: 1px 2px 1px 1px #bdbbbb;
+}
+
+.textoInstitucional,
+.infoEventos {
+    width: 50%;
+    padding: 0 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textoInstitucional h2,
+.infoEventos h2 {
+    font-size: 2.2rem;
+    margin-bottom: .5rem;
+}
+
+.textoInstitucional h3,
+.infoEventos h3 {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.textoInstitucional p,
+.infoEventos p {
+    width: 100%;
+    max-width: 500px;
+    font-size: 1.1rem;
+    text-align: left;
+    line-height: 25px;
+}
+
+.containerEventos {
+    width: 100%;
+    display: flex;
+    align-items: center;
 }

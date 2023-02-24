@@ -1,6 +1,8 @@
 import logoGelateria from '../../assets/logo.png';
 import './header.css';
 
+import { Link } from 'react-router-dom';
+
 export default function Header() {
     return(
         <header>
@@ -12,9 +14,10 @@ export default function Header() {
                 </a>
                 
                 <nav className='navegacao'>
-                    <a href="/">Home</a>
-                    <a href="/">Sabores</a>
-                    <a href="/">Sobre</a>
+                   <Link to='/'>Home</Link>
+                   <Link to='/sabores'>Sabores</Link>
+                   <Link to='/sobre'>Sobre</Link>
+                    
                 </nav>
 
             </div>
