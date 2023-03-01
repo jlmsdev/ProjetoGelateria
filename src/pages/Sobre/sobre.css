@@ -1,0 +1,33 @@
+.containerSobre {
+    width: 100%;
+    height: calc(100vh - 90px);
+    overflow: hidden;
+}
+
+.bannerSobre {
+    position: relative;
+}
+
+.bannerSobre img {
+    width: 100%;
+    height: calc(100vh - 90px);
+    object-fit: cover;
+}
+
+.textSobre {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    left: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textSobre span {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 5rem;
+    text-align: center;
+}
